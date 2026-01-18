@@ -15,7 +15,7 @@ let
 in
 rustPlatform.buildRustPackage {
   pname = appName;
-  version = "0-unstable-2026-01-13";
+  version = "0-unstable-2026-01-19";
 
   src = fetchFromGitHub {
     owner = "dangrover";
